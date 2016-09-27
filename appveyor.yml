@@ -11,6 +11,5 @@ build_script:
 - dotnet build "src\CommandPattern"
 after_build:
 - dotnet pack "src\CommandPattern"
-- dotnet publish "src\CommandPattern"
 test_script:
 - dotnet test "test\CommandPatternTests"
